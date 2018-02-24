@@ -1,0 +1,5 @@
+Encryption
+openssl enc -aes-256-cbc -e -in /Users/Smart/Desktop/smart-secret.pdf -out /User/Smart/Desktop/encryptedfile.pdf
+
+Decryption
+openssl enc -aes-256-cbc -d -in /Users/Smart/Desktop/smart-secret.pdf -out /User/Smart/Desktop/decryptedfile.pdf
